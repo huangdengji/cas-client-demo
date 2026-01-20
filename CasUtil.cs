@@ -14,9 +14,9 @@ namespace CasClientDemo
 
         public static async Task Main(string[] args)
         {
-            string casUrl = "https://authserver.ynftc.cn/authserver";
-            string service = "http://casp.ynftc.cn/qljfwapp/";
-            string ticket = "ST-1023038-XQhlr5FH-rxLjlimfJ3dfreHr5Elocalhost"; 
+            string casUrl = "https://sso.ehall.top";
+            string service = "https://5000-firebase-cas-client-demo2-c-1768815771970.cluster-nle52mxuvfhlkrzyrq6g2cwb52.cloudworkstations.dev/signin-cas";
+            string ticket = "ticket=ST-8-dhLjsi0Xp56edq1qskXO-cas01.example.org"; 
 
             try
             {
